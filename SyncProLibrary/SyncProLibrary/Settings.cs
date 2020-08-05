@@ -17,7 +17,7 @@ namespace SyncProLibrary
         private const string MANIFEST_URI_POSTFIX = "/external/crestron/";         //Auto update manufest prefix for Crestron devices
 
         //A local folder on the control system in which all configurations files will be stored.
-        public static string serverUrl = STAGING_SERVER_URL;//PRODUCTION_SERVER_URL; //STAGING_SERVER_URL
+        public static string serverUrl = PRODUCTION_SERVER_URL; //STAGING_SERVER_URL
         public static bool debugMode = true;
 
     }

@@ -15,7 +15,7 @@ namespace ThreeSeriesControlSystem
             CrestronEthernetHelper.GetAdapterdIdForSpecifiedAdapterType(EthernetAdapterType.EthernetLANAdapter));
         public static string model = "AV Control System";   //TODO: Use real product model. For Crestron control system use - InitialParametersClass.ControllerPromptName;
         public static string fwVersion = LIBRARY_FW_VERSION;
-        public static string partnerId = "8dd92e6d-a38b-4e02-9ff4-3d336c2a7500"; 
+        public static string partnerId = "8dd92e6d-a38b-4e02-9ff4-3d336c2a7500"; //AVService demo partnerID - swap with your partnerID
 
     }
 }
