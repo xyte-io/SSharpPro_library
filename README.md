@@ -1,16 +1,18 @@
-﻿This collection includes several classes to make development for the SyncPro's CloudOS easier for Crestron S#Pro and S# developers.
+
+# SyncPro CloudOS API Library and demo Crestron device
+
+>  This collection includes several classes to make development for the SyncPro's CloudOS easier for Crestron S#Pro and S# developers.
+
 To develop for the SyncPro API you need to be a SyncPro Partner. If you wish to become a partner, please contact us at partners@syncpro.io.
 
-=======================================================
-The class was tested with the following SW versions - 
-Crestron DB - 200.00.004.00  
-Device DB - 200.00.015.00  
-MS VS2008 - 9.0.30728.1 SP
-Crestron SIMPL # Pro - v2.000.0058
-=======================================================
+### Tested with the following SW versions
+* Crestron DB - 200.00.004.00  
+* Device DB - 200.00.015.00  
+* MS VS2008 - 9.0.30728.1 SP
+* Crestron SIMPL # Pro - v2.000.0058
 
-Some of the main classes are - 
-==============================
+
+### Overview
 
 - Api.cs - This it the main class, which implements the SyncPro API calls. For more information about the CloudOS api, please browse
 	to the partners portal at https://partners.syncpro.io. 
@@ -33,4 +35,5 @@ Some of the main classes are -
 
 - Lib\TelemetryMessage - A basic telemetry message class. Other devices' telemetry messages should extend this one.
 
-- Lib\WebMethods - Some core webmethods to Get and Post data from\to the server
+- Lib\WebMethods - Some core webmethods to Get and Post data from\to the server= This collection includes several classes to make development for the SyncPro's CloudOS easier for Crestron S#Pro and S# developers.
+
